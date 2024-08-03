@@ -34,6 +34,7 @@ body {
 
 desc {
     color: #5f5b53;
+    line-height: 26px; 
 }
 .desc.lv-1 {
     font-size: 1.8rem;
@@ -258,7 +259,7 @@ a {
 }
 .hero .watch-video span:hover {
     font-size: 130%;
-    background: tomato;
+    background: var(--primary-color);
 }
 .hero .watch-video span {
     margin-left: 14px;
@@ -292,6 +293,7 @@ a {
 .popular .desc {
     margin-top: 16px;
     color: #5f5b53;
+    line-height: 26px
 }
 .popular-top {
     display: flex;
@@ -483,6 +485,7 @@ a {
 .features .desc {
     margin-top: 16px;
     color: #5f5b53;
+    line-height: 28px;
 }
 .features .cta-btn {
     margin-top: 32px;
@@ -514,6 +517,7 @@ a {
     text-align: center;
 }
 .blog .desc {
+    line-height: 28px;
     color: #696262;
     width: 448px;
     margin: 16px auto 0;
@@ -610,6 +614,9 @@ a {
 
 .footer .row .column {
     width: 21.6%;
+}
+.footer .row .column svg {
+    color:#fff;
 }
 .footer .row .column:first-child {
     width: 35%;
